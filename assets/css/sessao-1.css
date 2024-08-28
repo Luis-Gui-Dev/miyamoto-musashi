@@ -1,0 +1,44 @@
+.sessao-1{
+    background-color: var(--cor-secundaria);
+    height: 100vh;
+}
+.s1-content {
+    display: flex;
+    justify-content: space-around;
+    color: var(--text-base);
+    
+}
+.s1-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 3rem;
+    justify-content: center;
+    text-align: right;
+    z-index: 1;
+}
+.loja-btn {
+    margin-top: 1rem;
+}
+.s1-img {
+    max-height: 100vh;
+    margin-right: 8rem;
+}
+.s1-title {
+    font-size: 2rem;
+}
+.s1-proposta {
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.s1-itens{
+
+}
+.s1-conhecer {
+    color: var(--cor-primaria);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    white-space: nowrap;
+}

@@ -1,0 +1,131 @@
+.navbar-container{
+}
+.navbar-container a {
+    text-decoration: none;
+}
+.navbar-content{
+    display: flex;
+    background-color: var(--cor-secundaria);
+    justify-content: space-between;
+    padding: 0.6rem 2rem;
+    height: 3rem;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    user-select: none;
+}
+.logo-navbar{
+    margin-top: 0.18rem;
+    display: inline-block;
+    line-height: normal;
+    height: 0;
+    color: var(--cor-primaria);
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.join{
+    font-size: small;
+    color: var(--text-base);
+}
+.menu-toggle {
+    border: none;
+    background: none;
+    border-top: 3px solid #ffffff;
+    cursor: pointer;
+}
+.menu-toggle::before,
+.menu-toggle::after {
+    content: " ";
+    display: block;
+    width: 1.5rem;
+    height: 2.2px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.menu-container{
+    position: fixed;
+    height: 80%;
+    width: 100%;
+    z-index: 100;
+    background-color: #0e0e0e;
+    clip-path: circle(100px at 100% -20%);
+    transition: 1s ease-out;
+    pointer-events: none;
+}
+.menu-container.active {
+    clip-path: circle(105rem at 100% -20%);
+    pointer-events: all;
+}
+.menu-container.active .menu-list a {
+    opacity: 1;
+}
+
+.menu-list {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.menu-list li {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    border: solid #b3b3b3 1px;
+}
+.menu-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.number-menu {
+    font-size: 0.7rem;
+    color: #b3b3b3;
+}
+
+.menu-list .arrow {
+    margin-right: 6rem;
+    padding: 0.5rem 1.5rem;
+    background: none;
+    border: solid #b3b3b3;
+    border-radius: 6rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.menu-list li button:hover {
+    transform: scale(1.2);
+}
+.social-links{
+    margin-left: 3rem;
+    margin-top: 0.8rem;
+}
+.social-links a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    border-right: solid 1px #b3b3b342;
+    padding-right: 1rem;
+    padding-top: 0.9rem;
+    padding-bottom: 1.4rem;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #b3b3b3;
+}
+.line-menu{
+    margin-top: 3rem;
+    width: 100vw;
+    border: solid #b3b3b342 1px;
+}

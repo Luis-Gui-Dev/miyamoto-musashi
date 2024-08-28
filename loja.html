@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="assets/css/loja.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="shortcut icon" href="assets/imagens/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header class="navbar-container">
+        <nav class="navbar-content">
+            <div class="logo">
+                <a href="index.html">MIAMOTO MUSASHI</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" onclick="mostrarCategoria('roupas')">Roupas</a>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="mostrarSubcategoria('sapatos')">Calçados</a></li>
+                        <li><a href="#" onclick="mostrarSubcategoria('camisas')">Camisas</a></li>
+                        <li><a href="#" onclick="mostrarSubcategoria('sobretudos')">Sobretudos</a></li>
+                        <li><a href="#" onclick="mostrarSubcategoria('calças')">Calças</a></li>
+                        <li><a href="#" onclick="mostrarSubcategoria('chapeus')">Chapéus</a></li>
+                        <li><a href="#" onclick="mostrarSubcategoria('luvas')">Luvas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="mostrarCategoria('livros')">Livros</a></li>
+                <li><a href="#" onclick="mostrarCategoria('espadas')">Espadas</a></li>
+                <li><a href="https://youtu.be/dQw4w9WgXcQ?si=RWIfKwc3QWVTBdOP" target="_blank" onclick="mostrarCategoria('jogos')">Jogos</a></li>
+                <li>
+                    <a href="#" onclick="mostrarCategoria('acessorios')">Acessórios</a>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="mostrarSubcategoria('joias')">Joias</a></li>
+                        <li><a href="#" onclick="mostrarSubcategoria('mascaras')">Máscaras</a></li>
+                        <li><a href="#" onclick="mostrarSubcategoria('cintos')">Cintos</a></li>
+                    </ul>
+                </li>
+                <li class="login"><a href="join.html" target="_blank">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Bem-vindo à MIAMOTO MUSASHI</h1>
+            <p>Encontre tudo o que precisa em um só lugar!</p>
+        </section>
+        <section class="produtos">
+            <h2>Produtos em Destaque</h2>
+            <!-- Categoria Roupas -->
+            <div id="roupas" class="categoria">
+                <div id="sapatos" class="subcategoria">
+                    <div class="grid-container">
+                        <!-- Sapatos -->
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/sapato-1.webp" alt="Sapato 1">
+                            <h3>Under Armour 3027619 Botas Táticas Masculinas UA Charged Valsetz Mid 6", Castlerock-</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 230,59</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/sapato-2.webp" alt="Sapato 2">
+                            <h3>Under Armour 3027619 Botas Táticas Masculinas UA Charged Valsetz Mid 6", Castlerock-</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 230,59</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/sapato-3.webp" alt="Sapato 3">
+                            <h3>Under Armour 3027619 Botas Táticas Masculinas UA Charged Valsetz Mid 6", Castlerock-</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 230,59</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/sapato-4.webp" alt="Sapato 4">
+                            <h3>Under Armour 3027619 Botas Táticas Masculinas UA Charged Valsetz Mid 6", Castlerock-</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 230,59</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>              
+                <!-- Outras subcategorias de Roupas... -->
+                <div id="camisas" class="subcategoria">
+                    <div class="grid-container">
+                        <!-- Camisas -->
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/camisa-1.webp" alt="camisa-1">
+                            <h3>Camiseta Waifu Chizuru Ecchi Rent A Girlfriend Anime Roupas Manga Japão Camiseta</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 126,29</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/camisa-1.webp" alt="camisa-1">
+                            <h3>Camiseta Waifu Chizuru Ecchi Rent A Girlfriend Anime Roupas Manga Japão Camiseta</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 126,29</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/camisa-1.webp" alt="camisa-1">
+                            <h3>Camiseta Waifu Chizuru Ecchi Rent A Girlfriend Anime Roupas Manga Japão Camiseta</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 126,29</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="produto">
+                            <img class="produto-img" src="assets/imagens/imagens-produtos/camisa-1.webp" alt="camisa-1">
+                            <h3>Camiseta Waifu Chizuru Ecchi Rent A Girlfriend Anime Roupas Manga Japão Camiseta</h3>
+                            <div class="produto-content">
+                                <p class="preco">R$ 126,29</p>
+                                <p class="descricao">Preço de lista: <s>R$ 500,59</s></p>
+                                <button class="compra">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Outras subcategorias de roupas podem ser adicionadas aqui -->
+            </div>
+
+            <!-- Categoria Livros -->
+            <div id="livros" class="categoria">
+                <div class="grid-container">
+                    <div class="produto">
+                        <img src="####" alt="Livro 1">
+                        <h3>Livro 1</h3>
+                        <p>Descrição breve do livro.</p>
+                        <button>Comprar</button>
+                    </div>
+                    <!-- Outros produtos de Livros -->
+                </div>
+            </div>
+
+            <!-- Outras categorias podem ser adicionadas aqui -->
+
+        </section>
+    </main>
+
+    <script src="assets/js/loja.js"></script>
+</body>
+</html>

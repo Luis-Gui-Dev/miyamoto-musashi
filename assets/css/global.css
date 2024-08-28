@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+    font-family: "Reggae One", system-ui;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .animation {
+    visibility: hidden;
+  }
+  :root{
+    --cor-primaria: #E62429;
+    --cor-secundaria: #010103;
+    --text-base: #ffff;
+    --text-footer: #767676;
+  }
